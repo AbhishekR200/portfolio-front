@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+}
+.head{
+    padding-top: 10px;
+background-color: rgb(135, 131, 131);
+}
+
+
+.navbar-nav{
+    margin-left: 450px;
+
+}
+.container-fluid{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.nav{
+    position: fixed;
+}
+.nav-item{
+    margin-right: 70px;
+}
+.navin{
+    font-weight: 900;
+    color: rgb(232, 226, 226);
+    text-shadow: 2px 2px 2px #000000
+    
+}
+.cont{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: whitesmoke;
+   padding-bottom: 100px;
+   padding-right: 15px;
+}
+.first{
+    background-color: rgb(135, 131, 131);
+padding-top: 30px;
+}
+.web{
+    margin-left: 50px;
+    
+}
+hr{
+    width:50%;
+    margin:0 ;
+
+}
+.cont1{
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(88, 92, 91);
+    padding-bottom: 1px;
+    padding-top: 40px;
+}
+.what{
+    padding-top: 20px;
+    
+}
+.bt{
+    margin-left: 70px;
+}
+.p1{
+    text-align: justify;
+    margin: 20px;
+    
+}
+.last{
+    color: white;
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    padding-top: 30px;
+}
+span{
+    margin-right: 5px;
+}
+.forp{
+    padding-bottom: 0PX;
+    margin-bottom: 0px;
+}
+.add{
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+.res{
+    margin-top: 0px;
+    background-color: rgb(105, 110, 108);
+    color: white;
+    padding-top: 80px;
+    text-align: justify;
+    padding-right: 15px;
+}
+.text-center{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.skill{
+    width: 500px;
+    color: #fff;
+
+    box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0, 0, 10px rgba(173, 76, 76, 0.22);
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 1px 2px rgb(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,.1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(1, 1, 1, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(70, 66, 68)0%,rgb(182, 62, 62)100%);
+}
+.html{
+    width: 95%;
+    animation:  html 3s;
+}
+.css{
+    width: 95%;
+    animation:  css 3s;
+}
+.javascript{
+    width: 80%;
+    animation:  javascript 3s;
+}
+.react{
+    width: 80%;
+    animation:  react 3s;
+}
+.node{
+    width: 70%;
+    animation:  node 3s;
+}
+.angular{
+    width: 50%;
+    animation:  angular 3s;
+}
+.exp{
+margin-left: 20px;
+
+}
+.hrr{
+    width: 1210px;
+}
+.date{
+    margin-left: 150px;
+}
+.date1{
+    margin-left: 290px;
+}
+.hr1{
+    width: 560px;
+    margin-left: 40px;
+}
+.text{
+    text-align: justify;
+}
+.proj {
+  background-color: #353b48;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.proj .pad {
+    position: relative; /* Ensure the parent container is relatively positioned */
+    margin-right: 20px; /* Adjust margins as needed */
+    margin-left: 70px;
+}
+
+.txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust width as needed */
+    height: 100%; /* Adjust height as needed */
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Smooth opacity transition */
+}
+
+.pad:hover .txt {
+    opacity: 1;
+}
+
+.txt p {
+    font-size: 20px;
+    color: #ffe100;
+    margin: 0; /* Reset margin to remove default spacing */
+    padding: 10px; /* Add padding inside the .txt container */
+}.col2{
+    margin-right: 40px;
+    
+}
+.imgh{
+    border-radius: 20px;
+    
+}
